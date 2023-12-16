@@ -1,0 +1,14 @@
+.about-descr-wrap {
+  padding: 86px 0 90px;
+}
+.about-descr-wrap p {
+  width: 850px;
+
+  color: #0d0d0d;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  letter-spacing: -0.4px;
+}

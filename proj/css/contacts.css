@@ -1,0 +1,14 @@
+.about-descr-wrap h3 {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px; /* 122.222% */
+  letter-spacing: -1.5px;
+  margin-bottom: 23px;
+}
+
+.about-descr-wrap p{
+    margin-bottom: 10px;
+}

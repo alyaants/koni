@@ -1,0 +1,97 @@
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0 5px;
+  align-items: center;
+  position: relative;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  width: 290px;
+  align-items: center;
+}
+.logo-img {
+  width: 89px;
+  height: 91px;
+}
+.logo-img__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.logo-name {
+  color: #5f7003;
+  text-align: center;
+  font-family: "Rubik Wet Paint";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 96% */
+}
+.logo-title {
+  color: #000;
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 19.132px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 22.958px; /* 120% */
+}
+
+.nav {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+.nav-item {
+  padding: 10px;
+}
+.nav-item__item {
+  width: 123px;
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 0.3s;
+}
+.nav-item__item:hover{
+  color: #5f7003;
+}
+.search-cart {
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search{
+  display: flex;
+  align-items: center;
+}
+.search-input {
+  width: 60px;
+  height: 31px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  font-family: "Open Sans";
+}
+.search-btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+}
+.cart-btn{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+}
+.cart{
+  padding: 0 40px;
+  border-left: 1px solid #979797;
+}
